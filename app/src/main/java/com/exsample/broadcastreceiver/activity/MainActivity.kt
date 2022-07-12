@@ -1,19 +1,21 @@
-package com.exsample.usbbroadcastreceiver.activity
+package com.exsample.broadcastreceiver.activity
 
 import android.content.Intent
 import android.content.IntentFilter
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.exsample.usbbroadcastreceiver.R
-import com.exsample.usbbroadcastreceiver.receiver.NoticeUsbConnectionReceiver
+import com.exsample.broadcastreceiver.databinding.ActivityMainBinding
+import com.exsample.broadcastreceiver.receiver.NoticeUsbConnectionReceiver
 
 
 class MainActivity : AppCompatActivity() {
     private lateinit var receiver : NoticeUsbConnectionReceiver
+    private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         initViews()
     }

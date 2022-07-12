@@ -1,4 +1,4 @@
-package com.exsample.usbbroadcastreceiver
+package com.exsample.broadcastreceiver
 
 import org.junit.Test
 
