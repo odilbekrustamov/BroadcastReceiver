@@ -1,11 +1,11 @@
-package com.exsample.usbbroadcastreceiver.receiver
+package com.exsample.broadcastreceiver.receiver
 
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.os.BatteryManager
 import android.widget.Toast
-import com.exsample.usbbroadcastreceiver.utils.Extensions.showDialog
+import com.exsample.broadcastreceiver.utils.Extensions.showDialog
 
 class NoticeUsbConnectionReceiver: BroadcastReceiver() {
 
