@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.USBBroadcastReceiver">
         <activity
-            android:name=".MainActivity"
+            android:name=".activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".PlugInControlReceiver"
+        <receiver android:name=".receiver.PlugInControlReceiver"
             android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />

@@ -1,4 +1,4 @@
-package com.exsample.usbbroadcastreceiver
+package com.exsample.usbbroadcastreceiver.receiver
 
 import android.app.AlertDialog
 import android.content.BroadcastReceiver

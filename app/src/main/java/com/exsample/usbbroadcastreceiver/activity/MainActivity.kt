@@ -1,10 +1,11 @@
-package com.exsample.usbbroadcastreceiver
+package com.exsample.usbbroadcastreceiver.activity
 
 import android.content.IntentFilter
 import android.net.ConnectivityManager
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.exsample.usbbroadcastreceiver.utils.Extensions
+import com.exsample.usbbroadcastreceiver.R
+import com.exsample.usbbroadcastreceiver.receiver.PlugInControlReceiver
 
 
 class MainActivity : AppCompatActivity() {
