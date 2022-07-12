@@ -19,15 +19,6 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".receiver.PlugInControlReceiver"
-            android:exported="false">
-            <intent-filter>
-                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-                <action android:name="android.hardware.usb.action.USB_STATE" />
-            </intent-filter>
-        </receiver>
-
     </application>
 
 </manifest>
